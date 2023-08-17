@@ -1,146 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SpaceX</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url(launch.jpeg);
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-  }
-
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #000;
-    color: #fff;
-  }
-
-  .logo {
-    display: flex;
-    align-items: center;
-    margin-left: 85px;
-  }
-
-  .logo img {
-    width: 200px;
-    height: 200px;
-    margin-left: 150px;
-    left: 25%
-  }
-
-  .menu {
-    display: flex;
-    gap: 20px;
-    margin-left: ;
-  }
-
-  .menu-item {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-  }
-
-  .shop-menu{
-
-   display: flex;
-   align-items: center;
-   gap: 20px;
-   
-
-  }
-
-  .shop {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    margin-left: 300px
-
-  }
-
-  .menu-button {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-color: #fff;
-    cursor: pointer;
-  }
-
-  .content {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 150px;
-    padding: 20px;
-    color: white;
-  }
-
-  .left-column {
-    position: absolute;
-    bottom: 25px;
-    padding-left: 60px;
-    padding-bottom: 80px;
-
-  }
-
-  .upcoming-launch {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-
-  .starlink-mission {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-
-  .watch-button {
-    background-color: none;
-    color: #fff;
-    padding: 15px 45px;
-    border: 2px solid white;
-    margin-right: 450px;
-    margin-top: 25px;
-    cursor: pointer;
-  }
-</style>
+    <title>SpaceX-Clone</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-        <div class="logo">
-          <img src="logo.png" alt="SpaceX Logo">
-          <div class="menu">
-            <a class="menu-item" href="#">FALCON 9</a>
-            <a class="menu-item" href="#">FALCON HEAVY</a>
-            <a class="menu-item" href="#">DRAGON</a>
-            <a class="menu-item" href="#">STARSHIP</a>
-            <a class="menu-item" href="#">HUMAN SPACEFLIGHT</a>
-            <a class="menu-item" href="#">RIDESHARE</a>
-            <a class="menu-item" href="#">STARSHIELD</a>
-            <a class="menu-item" href="#">STARLINK</a>
-          </div>
-        
-
-        <div class="shop-menu">
-            <a class="shop" href="#">SHOP</a>
-            <div class="menu-button"></div>
+    <div class="launch-container">
+        <img src="launch.jpeg" alt="launch" class="image1">
+        <div class="button-container">
+        <button class="button">FURNITURE</button>
+        <button class="button">LIGHTING</button>
+        <button class="button">WALL DECOR</button>            
+        <button class="button">RUGS</button>
         </div>
+    </div>
+    <div class="starlink-container">
+        <img src="starlink.jpeg" alt="starlink" class="image2">
+        <div class="button-container">
+        <button class="button">FURNITURE</button>
+        <button class="button">LIGHTING</button>
+        <button class="button">WALL DECOR</button>            
+        <button class="button">RUGS</button>
         </div>
-      <div class="content">
-        <div class="left-column">
-          <div class="upcoming-launch">UPCOMING LAUNCH</div>
-          <div class="starlink-mission">STARLINK MISSION</div>
-          <div class="watch-button">WATCH</div>
+    </div>
+    <div class="launch-container">
+        <img src="starship.jpg" alt="starship" class="image3">
+        <div class="button-container">
+        <button class="button">FURNITURE</button>
+        <button class="button">LIGHTING</button>
+        <button class="button">WALL DECOR</button>            
+        <button class="button">RUGS</button>
         </div>
-      </div>
-    </body>
-    </html>
+    </div>
+</body>
+</html>
