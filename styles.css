@@ -1,4 +1,6 @@
 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -21,7 +23,7 @@
 }
 
 .section-1{
-    background-image: url('launch.jpeg');
+    background-image: url('/img/launch.jpeg');
     background-size: cover;
     height: 970px;
     color: #ffffff;
@@ -110,7 +112,7 @@ background-color: transparent;
 
 
 .section-2{
-    background-image: url('starlink.jpeg');
+    background-image: url('/img/starlink.jpeg');
     background-size: cover;
     height: 970px;
     color: #ffffff;
@@ -149,7 +151,7 @@ background-color: transparent;
 
 
 .section-3{
-    background-image: url('starship.jpg');
+    background-image: url('/img/starship.jpg');
     background-size: cover;
     height: 970px;
     color: #ffffff;
